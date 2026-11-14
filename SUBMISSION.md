@@ -29,4 +29,4 @@ Mẫu báo cáo: [report/individual/MSSV_HoTen.md](report/individual/MSSV_HoTen.
 - [x] Có audit thủ công và phân tích cả 5 khía cạnh theo GUIDE; ghi giới hạn.
 - [x] Có lệnh chạy, code, manifest, experiment log và báo cáo cá nhân.
 - [x] Không có secret, dữ liệu riêng tư hoặc dữ liệu không được phép chia sẻ.
-- [ ] Repo mở được cho người chấm và đã nộp link theo hướng dẫn lớp.
+- [x] Repo mở được cho người chấm và đã nộp link theo hướng dẫn lớp.
