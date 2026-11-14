@@ -1,0 +1,50 @@
+{
+  "A": {
+    "strategy": "A",
+    "description": "Fixed-size chunking (size=500 chars, overlap=50 chars), no metadata filter at retrieval",
+    "chunk_count": 332,
+    "total_chars": 155231,
+    "approx_word_tokens": 33850,
+    "min_chars": 51,
+    "median_chars": 500.0,
+    "mean_chars": 467.6,
+    "max_chars": 500,
+    "ingest_time_seconds": 228.984,
+    "cost_usd": 0.0,
+    "stored_count_first_ingest": 332,
+    "stored_count_after_reingest": 332,
+    "idempotent_reingest_verified": true
+  },
+  "B": {
+    "strategy": "B",
+    "description": "Structure/Paragraph-aware chunking (max_size=1000 chars), no metadata filter at retrieval",
+    "chunk_count": 195,
+    "total_chars": 137676,
+    "approx_word_tokens": 29828,
+    "min_chars": 95,
+    "median_chars": 759.0,
+    "mean_chars": 706.0,
+    "max_chars": 999,
+    "ingest_time_seconds": 174.142,
+    "cost_usd": 0.0,
+    "stored_count_first_ingest": 195,
+    "stored_count_after_reingest": 195,
+    "idempotent_reingest_verified": true
+  },
+  "C": {
+    "strategy": "C",
+    "description": "Structure/Paragraph-aware chunking (max_size=1000 chars) + Metadata filter (section) when query specifies filter",
+    "chunk_count": 195,
+    "total_chars": 137676,
+    "approx_word_tokens": 29828,
+    "min_chars": 95,
+    "median_chars": 759.0,
+    "mean_chars": 706.0,
+    "max_chars": 999,
+    "ingest_time_seconds": 175.313,
+    "cost_usd": 0.0,
+    "stored_count_first_ingest": 195,
+    "stored_count_after_reingest": 195,
+    "idempotent_reingest_verified": true
+  }
+}

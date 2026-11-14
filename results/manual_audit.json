@@ -1,0 +1,301 @@
+{
+  "chunk_coherence": {
+    "scale": "0-2",
+    "num_positions": 10,
+    "mean_scores": {
+      "A": 0.6,
+      "B": 1.6,
+      "C": 1.6
+    },
+    "total_scores": {
+      "A": "6/20",
+      "B": "16/20",
+      "C": "16/20"
+    },
+    "samples": [
+      {
+        "sample_id": "pos_13",
+        "page": 13,
+        "section": "tong_quan",
+        "topic": "Tăng trưởng GDP 6,4% và động lực thương mại, dịch vụ trong nửa đầu năm 2024",
+        "scores": {
+          "A": 1,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "Dính running header đầu trang ('13 BÁO CÁO ĐIỂM LẠI...') và cắt ngang giữa từ tại ranh giới 500 ký tự ('tăng lần l'/'nh hơn', 'đạt m'/'h dịch vụ', 'phục'/'ho bãi'). Đọc hiểu được ý chính nhờ overlap 50 ký tự.",
+          "B": "Loại bỏ hoàn toàn running header, chia thành 4 đoạn văn độc lập, trọn câu (759–864 ký tự) theo đúng cấu trúc luận điểm vĩ mô.",
+          "C": "Giống B: giữ trọn vẹn 4 đoạn văn và đầy đủ ngữ cảnh độc lập."
+        }
+      },
+      {
+        "sample_id": "pos_14",
+        "page": 14,
+        "section": "tong_quan",
+        "topic": "Cán cân thanh toán quốc tế, tỷ giá VND/USD, nhu cầu vàng và biện pháp của NHNN",
+        "scores": {
+          "A": 1,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "Các chunk p14__c002..c007 cắt ngang từ tại nhiều vị trí ('xuất khẩu hàng h'/'ới 8,7%', 'lãi suất giữ'/'tư của họ', 'bao'/'g phi chính thức').",
+          "B": "Giữ nguyên vẹn từng đoạn phân tích về tài khoản vãng lai, chênh lệch lãi suất 166 bps, tỷ giá 25.334 VND, khoản mục 'Lỗi và sai sót' (p14__c004) và can thiệp của NHNN (p14__c005).",
+          "C": "Giống B: bảo toàn ranh giới câu và đoạn văn trên toàn trang 14."
+        }
+      },
+      {
+        "sample_id": "pos_15",
+        "page": 15,
+        "section": "tong_quan",
+        "topic": "Tăng trưởng tín dụng, nợ xấu ngân hàng (SCB/VAMC), trái phiếu doanh nghiệp và ngân sách/lạm phát",
+        "scores": {
+          "A": 1,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "Cắt giữa từ tại mọi điểm nối 500 ký tự ('được c'/'ộng sản', '27 ngân hàng t'/'o Q1-2024', '139,8 ngàn tỷ VND (5,6 tỷ US$), tro') và trộn cuối đoạn trái phiếu doanh nghiệp với tiêu đề mục ngân sách ở p15__c006.",
+          "B": "Tách chuẩn xác thành 4 đoạn văn theo đúng 4 chủ đề (tín dụng, nợ xấu, trái phiếu doanh nghiệp, ngân sách & lạm phát), đọc độc lập hoàn toàn rõ nghĩa.",
+          "C": "Giống B: đạt độ mạch lạc tối đa (2/2)."
+        }
+      },
+      {
+        "sample_id": "pos_16",
+        "page": 16,
+        "section": "tong_quan",
+        "topic": "Giải ngân đầu tư công, triển vọng kinh tế 2024–2026 và Bảng 0.1 (Một số chỉ số kinh tế)",
+        "scores": {
+          "A": 0,
+          "B": 1,
+          "C": 1
+        },
+        "notes": {
+          "A": "Các chunk p16__c006, p16__c007 và p16__c008 (51 ký tự) cắt vụn Bảng 0.1 làm tách rời dãy số dự báo khỏi tên chỉ tiêu và tiêu đề năm; không thể đọc hiểu bảng nếu không mở PDF gốc.",
+          "B": "Giữ trọn vẹn 3 đoạn văn xuôi (p16__c001..c003) và gom toàn bộ Bảng 0.1 vào duy nhất 1 chunk p16__c004 (640 ký tự), nhưng do pypdf trích xuất bảng theo luồng tuyến tính nên các con số xếp trước tên chỉ tiêu.",
+          "C": "Giống B: văn xuôi trọn vẹn, Bảng 0.1 không bị cắt rời nhưng hạn chế về thứ tự gióng cột khi trích xuất thuần văn bản từ PDF."
+        }
+      },
+      {
+        "sample_id": "pos_17",
+        "page": 17,
+        "section": "tong_quan",
+        "topic": "Rủi ro/cơ hội tăng trưởng kinh tế và tổng quan 3 chức năng của thị trường vốn Việt Nam",
+        "scores": {
+          "A": 1,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "Cắt đứt câu số liệu tiết kiệm của nhà đầu tư tổ chức giữa p17__c007 ('...chỉ đ') và p17__c008 ('uy động qua các nhà đầu tư tổ chức còn thấp, chỉ đạt 19% GDP').",
+          "B": "Giữ nguyên vẹn 4 đoạn phân tích lớn (rủi ro vĩ mô, tín hiệu lãi suất từ FED/ECB, quy mô thị trường vốn 90% GDP, và 3 chức năng huy động - tiết kiệm 19% GDP - định giá).",
+          "C": "Giống B: bảo toàn trọn vẹn các đoạn lập luận."
+        }
+      },
+      {
+        "sample_id": "pos_18",
+        "page": 18,
+        "section": "tong_quan",
+        "topic": "Cơ sở nhà đầu tư tổ chức và vai trò đa dạng hóa danh mục đầu tư của Quỹ BHXH",
+        "scores": {
+          "A": 1,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "9 chunk liên tiếp cắt ngang từ ('một ng'/'n dụng', 'khu vực doanh n'/'ếu', 'cải thiện tín'/'àm giảm'), làm xé lẻ lập luận về danh mục 10% GDP của BHXH qua 3 chunk c003..c005.",
+          "B": "Chia đúng 5 đoạn văn hoàn chỉnh (p18__c001..c005, 636–882 ký tự), mỗi chunk trình bày trọn vẹn một luận điểm về BHXH và nhà đầu tư tổ chức.",
+          "C": "Giống B: mạch lạc hoàn toàn (2/2)."
+        }
+      },
+      {
+        "sample_id": "pos_20",
+        "page": 20,
+        "section": "chuong_1_kinh_te_vi_mo",
+        "topic": "Mở đầu Chương 1 (Diễn biến kinh tế gần đây) kèm biểu đồ Hình 1.1 và Hình 1.2",
+        "scores": {
+          "A": 0,
+          "B": 1,
+          "C": 1
+        },
+        "notes": {
+          "A": "p20__c004 trộn lẫn nửa câu văn về dịch vụ nhà hàng khách sạn với tiêu đề Hình 1.1; p20__c005 và c006 là chuỗi nhãn trục số biểu đồ song ngữ bị cắt ngang tiêu đề ('Đóng góp củ'/'o trở thành').",
+          "B": "Tách bạch hoàn toàn 2 đoạn văn xuôi (p20__c001, c002) khỏi 2 khối biểu đồ Hình 1.1 (c003) và Hình 1.2 (c004), nhưng các chunk biểu đồ vẫn chứa chuỗi số trục đồ thị rời rạc từ PDF.",
+          "C": "Giống B: đoạn văn xuôi rõ ràng, phần chú thích biểu đồ bị nhiễu nhãn trục số PDF."
+        }
+      },
+      {
+        "sample_id": "pos_21",
+        "page": 21,
+        "section": "chuong_1_kinh_te_vi_mo",
+        "topic": "Đầu tư tư nhân, FDI, đầu tư công và biểu đồ Hình 1.3 – Hình 1.4",
+        "scores": {
+          "A": 0,
+          "B": 1,
+          "C": 1
+        },
+        "notes": {
+          "A": "Trộn chú thích đầu trang với câu văn vắt trang ở c001, cắt ngang số liệu ở c002..c004 và băm nhỏ nhãn trục biểu đồ Hình 1.3–1.4 thành 3 chunk nhiễu (c005..c007).",
+          "B": "Đoạn phân tích cốt lõi về tổng vốn đầu tư (+6,7%), tư nhân (+3,9%) và FDI (+13%) nằm nguyên vẹn trong p21__c002 (975 ký tự); tuy nhiên p21__c003..c004 vẫn dính nhãn trục số của Hình 1.3–1.4.",
+          "C": "Giống B: giữ nguyên vẹn đoạn phân tích đầu tư, còn nhiễu nhãn trục ở các chunk biểu đồ."
+        }
+      },
+      {
+        "sample_id": "pos_22",
+        "page": 22,
+        "section": "chuong_1_kinh_te_vi_mo",
+        "topic": "Chi tiêu người tiêu dùng, doanh số bán lẻ và các biểu đồ Hình 1.5 – Hình 1.8",
+        "scores": {
+          "A": 0,
+          "B": 1,
+          "C": 1
+        },
+        "notes": {
+          "A": "Cắt ngang chữ ở phần lời văn và trộn lẫn lời văn với hàng loạt dãy số trục biểu đồ Hình 1.5–1.8 bị cắt vụn từ p22__c003 đến p22__c007 ('ycles Vehicles Motorcycles 161 84 85...').",
+          "B": "Gom toàn bộ lời văn phân tích tiêu dùng và doanh số bán lẻ (+8,8%) vào đúng 1 chunk hoàn chỉnh p22__c001 (878 ký tự), tách riêng phần nhãn biểu đồ Hình 1.5–1.8 sang c002..c004.",
+          "C": "Giống B: lời văn tách biệt và trọn vẹn ở c001, phần biểu đồ c002..c004 chứa nhãn số rời rạc."
+        }
+      },
+      {
+        "sample_id": "pos_23",
+        "page": 23,
+        "section": "chuong_1_kinh_te_vi_mo",
+        "topic": "Chỉ số sản xuất công nghiệp (IPI = 166), chỉ số PMI (55) và Hình 1.9",
+        "scores": {
+          "A": 1,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "Cắt đứt đôi câu bằng chứng quan trọng về IPI và PMI ngay giữa p23__c001 ('...chỉ số sản xuất công nghiệp (IPI) lên đến 166 (+14,3% so với cùng kỳ năm trước). Chỉ số n') và p23__c002 ('ến 166... Chỉ số nhà quản trị mua hàng (PMI) cũng tăng mạnh, chạm mức 55'), trực tiếp gây lỗi truy hồi ở câu q02.",
+          "B": "Giữ nguyên vẹn toàn bộ đoạn phân tích IPI (166, +14,3%), PMI (55) và mức tăng các ngành điện tử, xăng dầu, kim loại trong duy nhất 1 chunk p23__c001 (954 ký tự).",
+          "C": "Giống B: đoạn phân tích chính nằm trọn vẹn tuyệt đối trong p23__c001 (2/2)."
+        }
+      }
+    ]
+  },
+  "metadata_usefulness": {
+    "test_top3_hits_checked_per_strategy": 15,
+    "strategies": {
+      "A": {
+        "valid_complete_metadata_hits": "15/15 (100.0%)",
+        "test_filter_questions_compliant": "2/2 (100.0%, ngẫu nhiên không có bộ lọc tại Vector Store)",
+        "dev_filter_questions_compliant": "1/4 (25.0%, các câu q12, q13, q15 bị các chunk khác chương chen vào Top-3)",
+        "all_filter_questions_compliant": "3/6 (50.0%)"
+      },
+      "B": {
+        "valid_complete_metadata_hits": "15/15 (100.0%)",
+        "test_filter_questions_compliant": "2/2 (100.0%, ngẫu nhiên không có bộ lọc tại Vector Store)",
+        "dev_filter_questions_compliant": "1/4 (25.0%, câu q15 bị chunk p28__c002 của Chương 1 chiếm Rank 1 làm sai lệch số liệu tỷ giá tháng 6/2024 của phần Tổng quan)",
+        "all_filter_questions_compliant": "3/6 (50.0%)"
+      },
+      "C": {
+        "valid_complete_metadata_hits": "15/15 (100.0%)",
+        "test_filter_questions_compliant": "2/2 (100.0%, cưỡng bức lọc section tại Qdrant Vector Store)",
+        "dev_filter_questions_compliant": "4/4 (100.0%, loại bỏ hoàn toàn nhiễu chéo giữa phần Tổng quan và Chương 1/Chương 2, giúp q15 đạt Hit@1)",
+        "all_filter_questions_compliant": "6/6 (100.0%)"
+      }
+    }
+  },
+  "grounding_quality": {
+    "scale": "0-2",
+    "num_test_questions": 5,
+    "mean_scores": {
+      "A": 1.4,
+      "B": 1.8,
+      "C": 1.8
+    },
+    "total_scores": {
+      "A": "7/10",
+      "B": "9/10",
+      "C": "9/10"
+    },
+    "questions": [
+      {
+        "question_id": "q16",
+        "question_type": "truc_tiep",
+        "filter": null,
+        "gold_page": 37,
+        "scores": {
+          "A": 2,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "Rank 1 (wb-diem-lai-2024-08__A__p37__c003, score=0.7736, trang 37) chứa nguyên vẹn câu bằng chứng 'Chỉ cần tăng đầu tư công thêm một điểm phần trăm so GDP có thể khiến cho GDP tăng thêm 0,1 phần trăm' và đủ metadata truy nguồn.",
+          "B": "Rank 1 (wb-diem-lai-2024-08__B__p37__c002, score=0.7395, trang 37) chứa trọn vẹn cả đoạn khuyến nghị chính sách đầu tư công và câu bằng chứng 0,1%, truy nguồn chính xác.",
+          "C": "Rank 1 (wb-diem-lai-2024-08__C__p37__c002, score=0.7395, trang 37) chứa trọn vẹn đoạn bằng chứng và metadata đầy đủ."
+        }
+      },
+      {
+        "question_id": "q17",
+        "question_type": "dieu_kien_ngoai_le",
+        "filter": null,
+        "gold_page": 46,
+        "scores": {
+          "A": 1,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "Rank 1 (wb-diem-lai-2024-08__A__p46__c003) chứa nguyên nhân và tỷ lệ 20% đợt đấu thầu bị từ chối nhưng bị cắt đứt giữa câu kết luận ở ký tự 500 ('...gây ra sự biến dạng cho chức năng định giá của thị trường trái phiếu'), phần đuôi câu rơi sang Rank 3 (p46__c004). Phải ghép 2 chunk bị cắt ngang.",
+          "B": "Rank 1 (wb-diem-lai-2024-08__B__p46__c002, score=0.8268, trang 46) bảo toàn nguyên vẹn 100% đoạn văn giải thích nguyên nhân, con số 20% (1/2020–12/2023) và hệ quả biến dạng định giá trong 1 chunk duy nhất.",
+          "C": "Rank 1 (wb-diem-lai-2024-08__C__p46__c002, score=0.8268, trang 46) bảo toàn nguyên vẹn 100% đoạn bằng chứng và truy ngược đúng nguồn."
+        }
+      },
+      {
+        "question_id": "q18",
+        "question_type": "dien_dat_lai",
+        "filter": null,
+        "gold_page": 57,
+        "scores": {
+          "A": 2,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "Rank 1 (wb-diem-lai-2024-08__A__p57__c002, score=0.8332, trang 57) chứa đầy đủ thông tin về VSDC và sự khác biệt giữa thanh toán trái phiếu chính phủ (qua NHNN) và chứng khoán doanh nghiệp (qua NHTM Nhà nước).",
+          "B": "Rank 1 (wb-diem-lai-2024-08__B__p57__c001, score=0.7863, trang 57) chứa trọn vẹn cả đoạn mục '5. Hạ tầng thị trường', đầy đủ bằng chứng và ngữ cảnh giám sát của UBCKNN, VNX.",
+          "C": "Rank 1 (wb-diem-lai-2024-08__C__p57__c001, score=0.7863, trang 57) chứa trọn vẹn bằng chứng và metadata truy nguồn."
+        }
+      },
+      {
+        "question_id": "q19",
+        "question_type": "metadata_filter",
+        "filter": {
+          "section": "chuong_2_thi_truong_von"
+        },
+        "gold_page": 49,
+        "scores": {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        "notes": {
+          "A": "Rank 1 (wb-diem-lai-2024-08__A__p49__c003) chỉ có thông tin 3 đợt IPO năm 2023 huy động 173 tỷ đồng (7 triệu USD), hoàn toàn bị mất vế đầu về huy động vốn bình quân 5 năm trên HOSE & HNX (37 ngàn tỷ đồng / 1,5 tỷ USD nằm ở p49__c002 ngoài Top-3), trong khi Rank 3 (p49__c007) lại nêu số liệu UPCOM (32 ngàn tỷ đồng) dễ gây nhầm lẫn.",
+          "B": "Top-3 có đủ cả hai vế của câu trả lời nhưng nằm tách ở 2 chunk liên tiếp trên trang 49: Rank 1 (wb-diem-lai-2024-08__B__p49__c001) chứa mức bình quân 37 ngàn tỷ đồng (1,5 tỷ USD)/năm trên HOSE & HNX, còn câu cuối về 3 đợt IPO năm 2023 (173 tỷ đồng) bị tách sang Rank 2 (wb-diem-lai-2024-08__B__p49__c002) do ngưỡng max_size=1000 ký tự. Chấm 1/2 theo đúng tiêu chí nghiêm ngặt 'phải ghép nhiều mảnh'.",
+          "C": "Tương tự B: Rank 1 (p49__c001) và Rank 2 (p49__c002) đều thuộc đúng section 'chuong_2_thi_truong_von' và cung cấp đủ 100% số liệu khi ghép lại, nhưng một chunk đơn lẻ chưa đủ trả lời trọn cả 2 vế nên chấm 1/2."
+        }
+      },
+      {
+        "question_id": "q20",
+        "question_type": "metadata_filter",
+        "filter": {
+          "section": "chuong_2_thi_truong_von"
+        },
+        "gold_page": 60,
+        "scores": {
+          "A": 1,
+          "B": 2,
+          "C": 2
+        },
+        "notes": {
+          "A": "Do cắt cứng 500 ký tự, Rank 1 (wb-diem-lai-2024-08__A__p60__c004) có số liệu của BHXH (20 tỷ USD) và bảo hiểm nhân thọ (15 tỷ USD) nhưng cắt đứt đúng ở chữ 'Các quỹ đầu tư và quỹ hưu trí tư nhân tăng tr'; con số 14 tỷ USD rơi sang Rank 2 (p60__c005). Phải ghép 2 mảnh bị cắt ngang câu.",
+          "B": "Rank 1 (wb-diem-lai-2024-08__B__p60__c003, score=0.8312, trang 60) giữ nguyên vẹn toàn bộ đoạn văn chứa đủ 3 con số (20 tỷ USD từ BHXH, 15 tỷ USD từ bảo hiểm nhân thọ, 14 tỷ USD từ quỹ đầu tư & hưu trí tư nhân) trong 1 chunk duy nhất, kèm các chú thích giả định ở Rank 2 và Rank 3.",
+          "C": "Rank 1 (wb-diem-lai-2024-08__C__p60__c003, score=0.8312, trang 60) giữ nguyên vẹn cả 3 con số trong 1 chunk duy nhất và tuân thủ bộ lọc metadata 'chuong_2_thi_truong_von'."
+        }
+      }
+    ]
+  }
+}

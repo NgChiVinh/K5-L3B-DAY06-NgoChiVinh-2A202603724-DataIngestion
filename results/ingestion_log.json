@@ -1,0 +1,146 @@
+{
+  "document_id": "wb-diem-lai-2024-08",
+  "source": "starter/data/wb_diem_lai_2024_08.pdf",
+  "total_physical_pages": 64,
+  "valid_content_pages_count": 47,
+  "excluded_or_empty_pages_count": 17,
+  "total_valid_normalized_chars": 141104,
+  "excluded_or_empty_pages": [
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 1,
+      "raw_chars": 264,
+      "normalized_chars": 259,
+      "reason": "cover_or_title_page"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 2,
+      "raw_chars": 0,
+      "normalized_chars": 0,
+      "reason": "blank_page"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 3,
+      "raw_chars": 72,
+      "normalized_chars": 70,
+      "reason": "cover_or_title_page"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 4,
+      "raw_chars": 1605,
+      "normalized_chars": 1595,
+      "reason": "copyright_and_disclaimer"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 5,
+      "raw_chars": 1874,
+      "normalized_chars": 1846,
+      "reason": "table_of_contents_and_lists"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 6,
+      "raw_chars": 2168,
+      "normalized_chars": 2163,
+      "reason": "table_of_contents_and_lists"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 7,
+      "raw_chars": 1966,
+      "normalized_chars": 1951,
+      "reason": "table_of_contents_and_lists"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 8,
+      "raw_chars": 2179,
+      "normalized_chars": 2161,
+      "reason": "table_of_contents_and_lists"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 9,
+      "raw_chars": 1129,
+      "normalized_chars": 1048,
+      "reason": "abbreviations"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 10,
+      "raw_chars": 500,
+      "normalized_chars": 476,
+      "reason": "abbreviations"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 11,
+      "raw_chars": 1520,
+      "normalized_chars": 1505,
+      "reason": "acknowledgments"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 12,
+      "raw_chars": 84,
+      "normalized_chars": 83,
+      "reason": "section_divider_title_only"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 19,
+      "raw_chars": 116,
+      "normalized_chars": 114,
+      "reason": "section_divider_title_only"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 38,
+      "raw_chars": 128,
+      "normalized_chars": 126,
+      "reason": "section_divider_title_only"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 62,
+      "raw_chars": 0,
+      "normalized_chars": 0,
+      "reason": "blank_page"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 63,
+      "raw_chars": 0,
+      "normalized_chars": 0,
+      "reason": "blank_page"
+    },
+    {
+      "document_id": "wb-diem-lai-2024-08",
+      "source": "starter/data/wb_diem_lai_2024_08.pdf",
+      "page": 64,
+      "raw_chars": 126,
+      "normalized_chars": 126,
+      "reason": "cover_or_title_page"
+    }
+  ]
+}
